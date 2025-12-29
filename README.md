@@ -1,0 +1,1 @@
+# Raspberry-Pi-Destekli-Yapay-Zek-Tabanl-Ak-ll-Soru-Cevap-Sistemi
