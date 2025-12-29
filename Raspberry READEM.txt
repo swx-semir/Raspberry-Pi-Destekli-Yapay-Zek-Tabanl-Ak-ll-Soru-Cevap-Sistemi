@@ -61,7 +61,5 @@ git clone https://github.com/swx-semir/Raspberry-Pi-Destekli-Yapay-Zek-Tabanl-Ak
 
 Ana Python dosyasını çalıştırın:
 
-python main.py
-
 
 Sistem sensörlerden veri alacak ve yapay zekâ tabanlı soru-cevap işlemini gerçekleştirecek. Servo motorlar ve diğer donanımlar sensör verilerine göre hareket edecektir.
