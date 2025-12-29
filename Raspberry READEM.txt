@@ -1,0 +1,67 @@
+Kurulum
+
+Raspberry Pi’nizi
+
+
+Kullanılan Donanımlar
+
+Raspberry Pi (ana kontrol birimi)
+
+Servo motorlar (fiziksel hareketler için)
+
+LDR (ışık sensörü)
+
+ESP modüller
+
+Diğer sensörler ve elektronik bileşenler (projeye göre)
+
+Kullanılan Yazılımlar ve Kütüphaneler
+
+Bu proje Python 3.x üzerinde geliştirilmiştir.
+Kullanılan başlıca kütüphaneler ve amaçları:
+
+OpenCV: Görüntü işleme ve kamera verilerini işleme.
+
+NumPy: Sayısal işlemler ve veri hesaplamaları.
+
+RPi.GPIO: Raspberry Pi GPIO pinlerini kontrol etmek için.
+
+ChromaDB / FAISS: Embedding vektörlerini veritabanında saklamak ve hızlı sorgulama yapmak için.
+
+Diğer sensör kütüphaneleri: Servo, LDR ve ESP modüller için gerekli kütüphaneler.
+
+Tüm Python kütüphanelerini yüklemek için terminalde aşağıdaki komutu çalıştırın:
+
+pip install -r requirements.txt
+
+
+Eğer requirements.txt yoksa, manuel olarak şu komutlarla yükleyebilirsiniz:
+
+pip install opencv-python
+pip install numpy
+pip install RPi.GPIO
+pip install chromadb
+pip install faiss-cpu
+
+
+Sensörler için ek kütüphaneler sensör tipine göre ayrı yüklenmelidir.
+
+Kurulum
+
+Raspberry Pi’nizi hazır hale getirin ve Raspbian OS kurulu olduğundan emin olun.
+
+Python 3 ve gerekli kütüphaneleri yükleyin (yukarıdaki adımları takip edin).
+
+Donanımları (servo, LDR, sensörler) Raspberry Pi GPIO pinlerine bağlayın.
+
+Projeyi GitHub’dan klonlayın:
+
+git clone https://github.com/swx-semir/Raspberry-Pi-Destekli-Yapay-Zek-Tabanl-Ak-ll-Soru-Cevap-Sistemi.git
+
+
+Ana Python dosyasını çalıştırın:
+
+python main.py
+
+
+Sistem sensörlerden veri alacak ve yapay zekâ tabanlı soru-cevap işlemini gerçekleştirecek. Servo motorlar ve diğer donanımlar sensör verilerine göre hareket edecektir.
