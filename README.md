@@ -12,6 +12,7 @@ Günümüzde metin verileri hacim olarak çok büyük olup, anlamlı bilgi çık
 Bu proje, metinlerin anlamını kaybetmeden sayısal hale getirilmesini ve kullanıcı sorularına doğru cevaplar üretecek bir sistem geliştirmeyi hedeflemektedir.
 
 3. Proje Hedefleri
+![e1d58038-9fb4-4856-bff9-10e7e09a8b81](https://github.com/user-attachments/assets/58d8018b-9659-4ccd-ba9f-aa0e18c71718)
 
 Dokümanların embedding yöntemiyle sayısal vektörlere dönüştürülmesi
 
@@ -26,6 +27,7 @@ Embedding vektörlerinin veritabanında saklanması
 Sistem performansının nicel metrikler ile ölçülmesi (F1 skoru, doğruluk vb.)
 
 4. Projenin Çözümü ve Kullanılan Teknolojiler
+![a9f3d349-1808-44ee-ba86-c93a47447c17](https://github.com/user-attachments/assets/4174a31a-5526-4a87-8871-88d6bbbf3966)
 
 Python: NLP ve LLM kütüphanelerinin zengin desteği nedeniyle tercih edilmiştir.
 
@@ -36,6 +38,7 @@ Raspberry Pi: Kullanıcı arayüzü ve hafif işlem görevleri için kullanılm�
 Veritabanı (ChromaDB / FAISS): Embedding vektörlerini hızlı ve düzenli şekilde saklamak için kullanılmıştır.
 
 5. Odaklanılan Ana Başlık ve Kullanılan Yöntem
+![1ed650a4-2533-49f9-af59-3ab5cd820d6c](https://github.com/user-attachments/assets/0ad6403a-dddc-4464-bedd-b89a31bc30f4)
 
 Projenin ana odak noktası metin embedding ve soru-cevap sistemleridir.
 
@@ -50,6 +53,7 @@ Yöntem:
 Transformer tabanlı LLM kullanılmıştır.
 
 Gerekli durumlarda model fine-tuning ile veri setine uyarlanmıştır.
+![e1962cae-1679-4f05-9e7e-3fca7b3565da](https://github.com/user-attachments/assets/43f46c8d-24f8-4bb6-b30e-b99a19896996)
 
 6. Seçilen Dil Modeli ve Seçim Nedeni
 
@@ -62,6 +66,8 @@ Metin bağlamını güçlü şekilde anlaması
 Soru-cevap görevlerinde yüksek başarı
 
 Akademik ve endüstriyel çalışmalarda yaygın kullanımı
+
+<img width="1280" height="720" alt="GPIO-diagram-Raspberry-Pi-4" src="https://github.com/user-attachments/assets/a2832b8f-0ed5-4f30-a99c-d2e279779717" />
 
 7. Embedding Oluşturma Süreci
 
