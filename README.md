@@ -1,6 +1,12 @@
 Proje: Raspberry Pi Destekli Yapay Zekâ Tabanlı Akıllı Soru-Cevap Sistemi (LLM + Embedding)
 1. Proje Amacı
 
+2. 
+![raspberry-pi-projects](https://github.com/user-attachments/assets/29fae584-b98d-4155-8aba-c600fb542c34)
+
+
+
+
 Bu projenin amacı, kullanıcıların doküman ve metinler üzerinde sorular sorabilmesini sağlayan, Raspberry Pi destekli bir yapay zekâ sisteminin geliştirilmesidir. Projede, metinler embedding yöntemiyle sayısal vektörlere dönüştürülmüş, veritabanında saklanmış ve bir LLM (Large Language Model) kullanılarak sorulara insan benzeri cevaplar üretilmiştir.
 Sistem, düşük donanımlı bir cihaz (Raspberry Pi) ile bulut tabanlı GPU’nun iş birliğiyle çalışmaktadır. Bu sayede hem taşınabilirlik sağlanmış hem de yüksek performans elde edilmiştir.
 
